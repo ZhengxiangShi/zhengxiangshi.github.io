@@ -7,8 +7,9 @@ author_profile: true
 
 
 ------
-Coming soon!
-
+* **StepGame: A New Benchmark for Multi-Hop Spatial Reasoning** [:paperclip:](zhengxiangshi.github.io) [:computer:](zhengxiangshi.github.io) <br />
+  **Zhengxiang Shi**, Qiang Zhang, Aldo Lipani <br />
+  Association for the Advancement of Artificial Intelligence (AAAI), 2022 <br />
 
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>

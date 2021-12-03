@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- ------ -->
-Welcome to my personal page! 
+Welcome to my personal page! :basketball: :octocat:
 
 Now I am a PhD student at University College London, affiliated with [SpaceTimeLab](https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab) and [Web Intelligence Group](http://wi.cs.ucl.ac.uk). My research interests lie in the area of machine learning, particularly in spatial language understanding and conversational systems. 
 

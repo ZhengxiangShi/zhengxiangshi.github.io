@@ -7,3 +7,4 @@ author_profile: true
 
 ------
 * UCL PhD Studentship
+* Microsoft Computing Grant
