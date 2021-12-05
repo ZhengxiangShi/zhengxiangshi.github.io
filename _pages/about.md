@@ -11,7 +11,7 @@ redirect_from:
 <!-- ------ -->
 Welcome to my personal page! :basketball: :octocat:
 
-Now I am a PhD student at University College London, affiliated with [SpaceTimeLab](https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab) and [Web Intelligence Group](http://wi.cs.ucl.ac.uk). My research interests lie in the area of machine learning, particularly in spatial language understanding and conversational systems. 
+Now I am a PhD student at University College London, affiliated with [SpaceTimeLab](https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab) and [Web Intelligence Group](http://wi.cs.ucl.ac.uk). My research interests lie in the area of machine learning, particularly in spatial language understanding and conversational systems. I am also working on the [2021 Alexa Prize TaskBot Challengehe](https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge) with [UCL Condita Team](http://wi.cs.ucl.ac.uk/index.php/2021/08/14/the-ucl-condita-team-selected-for-the-2021-alexa-prize-taskbot-challenge/).
 
 <!-- I focus on improving common-sense reasoning in conversational agents by equipping them with abilities to infer and understand spatial relations in natural language. -->
 
