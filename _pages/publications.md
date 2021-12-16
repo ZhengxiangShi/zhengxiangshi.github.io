@@ -7,7 +7,7 @@ author_profile: true
 
 
 ------
-* **StepGame: A New Benchmark for Multi-Hop Spatial Reasoning** [:paperclip:](https://zhengxiangshi.github.io) [:computer:](https://zhengxiangshi.github.io) <br />
+* **StepGame: A New Benchmark for Multi-Hop Spatial Reasoning** [:paperclip:](https://github.com/ZhengxiangShi/StepGame) [:computer:](https://github.com/ZhengxiangShi/StepGame) <br />
   **Zhengxiang Shi**, Qiang Zhang, Aldo Lipani <br />
   Association for the Advancement of Artificial Intelligence (AAAI), 2022 <br />
 
