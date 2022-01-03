@@ -25,10 +25,10 @@ Research Interests
 
 Education
 ======
-- PhD in Natural Language Processing, Univeristy College London, *2020* - *Now* 
+- PhD in Natural Language Processing, Univeristy College London, *2020* - *Present* 
 - MSc in Data Science, University College London, *2019* - *2020* 
-- BSc in Mathematics with Finance, University of Liverpool, *2017* - *2019* 
-- BSc in Mathematics with Finance, Xi'an Jiaotong-Liverpool University, *2015* - *2017* 
+- BSc in Mathematics with Finance, University of Liverpool & XJTLU, *2015* - *2019* 
+<!-- - BSc in Mathematics with Finance, Xi'an Jiaotong-Liverpool University, *2015* - *2017*  -->
 <!-- :mortar_board:   -->
 
 <!-- * Fall 2015: Research Assistant
