@@ -6,5 +6,6 @@ author_profile: true
 ---
 
 ------
-* UCL PhD Studentship
+* AAAI-22 Scholarship
 * Microsoft Computing Grant
+* UCL PhD Studentship
