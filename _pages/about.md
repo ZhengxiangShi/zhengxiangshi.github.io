@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- ------ -->
-Welcome to my personal page! :basketball: :octocat:
+Welcome to my personal page! I stand with Ukraine :ukraine: !
 
 Now I am a PhD student supervised by [Dr Aldo Lipani](https://aldolipani.com) at University College London, affiliated with [SpaceTimeLab](https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab) and [Web Intelligence Group](http://wi.cs.ucl.ac.uk). Prior to that, I obtained Master degree with *Distinction* from University College London and Bachelor degree with *First Class Honor* from University of Liverpool and Xi'an Jiaotong-Liverpool University. I am also a [Chartered Financial Analyst](https://en.wikipedia.org/wiki/Chartered_Financial_Analyst) (CFA) Level II candidate with rich internship experience in financial industries.
 
