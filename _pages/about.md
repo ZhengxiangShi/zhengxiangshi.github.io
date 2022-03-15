@@ -20,7 +20,7 @@ My research interests lie in the area of machine learning, particularly in spati
 Research Interests
 ======
 - Conversational System
-- Spatial Reasoning
+- Commonsense Reasoning
 - Information Retrieval
 
 Education
