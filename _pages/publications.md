@@ -7,7 +7,7 @@ author_profile: true
 
 
 ------
-* **Learning to Execute or Ask Clarification Questions** [:paperclip:]() [:computer:]() <br />
+* **Learning to Execute or Ask Clarification Questions** [:computer:](https://github.com/ZhengxiangShi/LearnToAsk) <br />
   **Zhengxiang Shi**, Yue Feng, Aldo Lipani <br />
   North American Chapter of the Association for Computational Linguistics (Findings of NAACL), 2022 <br />
 
@@ -15,6 +15,9 @@ author_profile: true
   **Zhengxiang Shi**, Qiang Zhang, Aldo Lipani <br />
   Association for the Advancement of Artificial Intelligence (AAAI), 2022 <br />
   *(Acceptance Rate: 15%, Selected for Oral Presentation: 4.5%)*
+
+* **Attention-based Ingredient Parser** [:computer:](https://github.com/ZhengxiangShi/IngredientParsing) <br />
+  **Zhengxiang Shi**, Pin Ni, Meihui Wang, Aldo Lipani <br />
 
 
 <!-- {% if author.googlescholar %}
