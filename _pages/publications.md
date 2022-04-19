@@ -7,7 +7,7 @@ author_profile: true
 
 
 ------
-* **Learning to Execute or Ask Clarification Questions** [:computer:](https://github.com/ZhengxiangShi/LearnToAsk) <br />
+* **Learning to Execute or Ask Clarification Questions** [:paperclip:](https://arxiv.org/abs/2204.08373) [:computer:](https://github.com/ZhengxiangShi/LearnToAsk) <br />
   **Zhengxiang Shi**, Yue Feng, Aldo Lipani <br />
   North American Chapter of the Association for Computational Linguistics (Findings of NAACL), 2022 <br />
 
