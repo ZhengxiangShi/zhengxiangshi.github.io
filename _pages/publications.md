@@ -16,8 +16,8 @@ author_profile: true
   Association for the Advancement of Artificial Intelligence (AAAI), 2022 <br />
   *(Acceptance Rate: 15%, Selected for Oral Presentation: 4.5%)* <br />
 
-* **Attention-based Ingredient Parser** [:computer:](https://github.com/ZhengxiangShi/IngredientParsing) <br />
-  **Zhengxiang Shi**, Pin Ni, Meihui Wang, Aldo Lipani <br />
+<!-- * **Attention-based Ingredient Parser** [:computer:](https://github.com/ZhengxiangShi/IngredientParsing) <br />
+  **Zhengxiang Shi**, Pin Ni, Meihui Wang, Aldo Lipani <br /> -->
 
 
 <!-- {% if author.googlescholar %}
