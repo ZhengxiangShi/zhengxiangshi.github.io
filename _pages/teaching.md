@@ -10,6 +10,6 @@ author_profile: true
 
 | Year             | Course                             | Role                                                          | Student                  | University |
 | --------         | ---------------------------------  | ------------------------------------------------------------- | ------------------------ | ---------- |
-| 2022             | Machine Learning for Data Science  | Teaching Assistant                                            | Master                   | UCL        |
-| 2021             | Geospatial Programming             | Teaching Assistant                                            | Master                   | UCL        |
-| 2021             | Machine Learning for Data Science  | Teaching Assistant                                            | Master                   | UCL        |
+| 2021-22          | Machine Learning for Data Science  | Teaching Assistant                                            | Master                   | UCL        |
+| 2021-22          | Geospatial Programming             | Teaching Assistant                                            | Master                   | UCL        |
+| 2020-21          | Machine Learning for Data Science  | Teaching Assistant                                            | Master                   | UCL        |
