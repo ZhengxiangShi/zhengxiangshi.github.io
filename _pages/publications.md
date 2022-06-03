@@ -8,7 +8,7 @@ author_profile: true
 
 ------
 * **Condita: A State Machine Like Architecture for Multi-Modal Task Bots** [:paperclip:](https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots) <br />
-  Jerome Ramos*, To Eun Kim*, **Zhengxiang Shi**, Xiao Fu, Fanghua Ye, Yue Feng, Aldo Lipani (*Equivalent Contribution) <br />
+  Jerome Ramos\*, To Eun Kim\*, **Zhengxiang Shi**, Xiao Fu, Fanghua Ye, Yue Feng, Aldo Lipani <br />
   Alexa Prize TaskBot Challenge Proceedings, 2022 <br />
 
 * **Learning to Execute Actions or Ask Clarification Questions** [:paperclip:](https://arxiv.org/abs/2204.08373) [:computer:](https://github.com/ZhengxiangShi/LearnToAsk) <br />
