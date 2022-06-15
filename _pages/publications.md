@@ -9,7 +9,7 @@ linkcolor: black
 
 ------
 * **Condita: A State Machine Like Architecture for Multi-Modal Task Bots** [:paperclip:](https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots) <br />
-  Jerome Ramos\*, <a href="https://kimdanny.github.io" style="color: black;">To Eun Kim</a>\*, **Zhengxiang Shi**, Xiao Fu, Fanghua Ye, <a href="https://scholar.google.com/citations?user=ZNOC0lYAAAAJ&hl=en" style="color: black;">Yue Feng</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
+  <a href="http://wi.cs.ucl.ac.uk/index.php/people/" style="color: black;">Jerome Ramos</a>\*, <a href="https://kimdanny.github.io" style="color: black;">To Eun Kim</a>\*, **Zhengxiang Shi**, <a href="http://wi.cs.ucl.ac.uk/index.php/people/" style="color: black;">Xiao Fu</a>, Fanghua Ye, <a href="https://scholar.google.com/citations?user=ZNOC0lYAAAAJ&hl=en" style="color: black;">Yue Feng</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Alexa Prize TaskBot Challenge Proceedings, 2022 <br />
 
 * **Learning to Execute Actions or Ask Clarification Questions** [:paperclip:](https://arxiv.org/abs/2204.08373) [:computer:](https://github.com/ZhengxiangShi/LearnToAsk) <br />
