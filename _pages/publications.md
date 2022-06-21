@@ -8,6 +8,10 @@ linkcolor: black
 
 
 ------
+* **Attention-based Ingredient Phrase Parser** [:paperclip:]() <br />
+  **Zhengxiang Shi**, <a href="https://www.researchgate.net/profile/Pin-Ni" style="color: black;">Pin Ni</a>, <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab/people" style="color: black;">Meihui Wang</a>, <a href="https://kimdanny.github.io" style="color: black;">To Eun Kim</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
+  European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN), 2022 <br />
+
 * **Condita: A State Machine Like Architecture for Multi-Modal Task Bots** [:paperclip:](https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots) <br />
   <a href="http://wi.cs.ucl.ac.uk/index.php/people/" style="color: black;">Jerome Ramos</a>\*, <a href="https://kimdanny.github.io" style="color: black;">To Eun Kim</a>\*, **Zhengxiang Shi**, <a href="http://wi.cs.ucl.ac.uk/index.php/people/" style="color: black;">Xiao Fu</a>, Fanghua Ye, <a href="https://scholar.google.com/citations?user=ZNOC0lYAAAAJ&hl=en" style="color: black;">Yue Feng</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Alexa Prize TaskBot Challenge Proceedings, 2022 <br />
