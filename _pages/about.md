@@ -11,9 +11,9 @@ redirect_from:
 <!-- ------ -->
 Welcome to my personal page! I stand with Ukraine :ukraine: !
 
-My name is Zhengxiang Shi. Now I am a PhD student supervised by [Dr Aldo Lipani](https://aldolipani.com) at University College London, affiliated with [Web Intelligence Group](http://wi.cs.ucl.ac.uk) and [SpaceTimeLab](https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab). Prior to that, I obtained Master degree with *Distinction* from University College London and Bachelor degree with *First Class Honor* from University of Liverpool and Xi'an Jiaotong-Liverpool University. I am also a [Chartered Financial Analyst](https://en.wikipedia.org/wiki/Chartered_Financial_Analyst) (CFA) Level II candidate with rich internship experience in financial industries.
+My name is Zhengxiang Shi. Now I am a PhD student supervised by <a href="https://aldolipani.com" style="color: black;">Dr Aldo Lipani</a> at University College London, affiliated with <a href="http://wi.cs.ucl.ac.uk" style="color: black;">Web Intelligence Group</a> and <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab" style="color: black;">SpaceTimeLab</a>. Prior to that, I obtained Master degree with *Distinction* from University College London and Bachelor degree with *First Class Honor* from University of Liverpool and Xi'an Jiaotong-Liverpool University. I am also a Chartered Financial Analyst (CFA) Level II candidate with rich internship experience in financial industries.
 
-My research interests lie in the area of machine learning, particularly in spatial reasoning over texts and conversational systems. Besides that, I am also working on the [2021 Amazon Alexa Prize TaskBot Challenge](https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge) with [UCL Condita Team](http://wi.cs.ucl.ac.uk/index.php/2021/08/14/the-ucl-condita-team-selected-for-the-2021-alexa-prize-taskbot-challenge/).
+<!-- My research interests lie in the area of machine learning, particularly in spatial reasoning over texts and conversational systems. Besides that, I am also working on the [2021 Amazon Alexa Prize TaskBot Challenge](https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge) with [UCL Condita Team](http://wi.cs.ucl.ac.uk/index.php/2021/08/14/the-ucl-condita-team-selected-for-the-2021-alexa-prize-taskbot-challenge/). -->
 
 <!-- I focus on improving common-sense reasoning in conversational agents by equipping them with abilities to infer and understand spatial relations in natural language. -->
 
@@ -25,7 +25,7 @@ Research Interests
 
 Education
 ======
-- PhD in Natural Language Processing, Univeristy College London, *2020* - *Present* 
+- PhD in Computer Science, Univeristy College London, *2020* - *Present* 
 - MSc in Data Science, University College London, *2019* - *2020* 
 - BSc in Mathematics with Finance, University of Liverpool & XJTLU, *2015* - *2019* 
 <!-- - BSc in Mathematics with Finance, Xi'an Jiaotong-Liverpool University, *2015* - *2017*  -->
