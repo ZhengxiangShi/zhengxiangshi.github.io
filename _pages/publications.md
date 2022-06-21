@@ -8,7 +8,7 @@ linkcolor: black
 
 
 ------
-* **Attention-based Ingredient Phrase Parser** [:paperclip:]() <br />
+* **Attention-based Ingredient Phrase Parser** [:paperclip:]() [:computer:]() <br />
   **Zhengxiang Shi**, <a href="https://www.researchgate.net/profile/Pin-Ni" style="color: black;">Pin Ni</a>, <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab/people" style="color: black;">Meihui Wang</a>, <a href="https://kimdanny.github.io" style="color: black;">To Eun Kim</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN), 2022 <br />
 
