@@ -9,7 +9,7 @@ linkcolor: black
 
 ------
 * **Attention-based Ingredient Phrase Parser** [:paperclip:](https://discovery.ucl.ac.uk/id/eprint/10150873/) [:computer:](https://github.com/ZhengxiangShi/IngredientParsing) <br />
-  **Zhengxiang Shi**, <a href="https://www.researchgate.net/profile/Pin-Ni" style="color: black;">Pin Ni</a>, <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab/people" style="color: black;">Meihui Wang</a>, <a href="https://kimdanny.github.io" style="color: black;">To Eun Kim</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
+  **Zhengxiang Shi**, <a href="https://scholar.google.com/citations?user=nXZ7KHMAAAAJ&hl=en&oi=ao" style="color: black;">Pin Ni</a>, <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab/people" style="color: black;">Meihui Wang</a>, <a href="https://kimdanny.github.io" style="color: black;">To Eun Kim</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   European Symposium on Artificial Neural Networks (ESANN), 2022 <br />
 
 * **Condita: A State Machine Like Architecture for Multi-Modal Task Bots** [:paperclip:](https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots) <br />
