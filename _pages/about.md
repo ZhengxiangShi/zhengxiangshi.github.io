@@ -8,6 +8,26 @@ redirect_from:
   - /about.html
 ---
 
+<head>
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+</head>
+
 <!-- ------ -->
 Welcome to my personal page! I stand with Ukraine :ukraine: !
 
@@ -23,11 +43,17 @@ Research Interests
 - Commonsense Reasoning
 - Information Retrieval
 
+Experience
+======
+- Applied Scientist Internship, <a href="https://www.amazon.science/" style="color:black">Amazon</a>, *Oct 2022* - *Jan 2023*
+<!-- - Alexa Prize TaskBot Challenge, <a href="https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge" style="color:black">Amazon</a>, *May 2021 - May 2022* -->
+
 Education
 ======
-- PhD in Computer Science, Univeristy College London, *2020* - *Present* 
-- MSc in Data Science, University College London, *2019* - *2020* 
-- BSc in Mathematics with Finance, University of Liverpool & XJTLU, *2015* - *2019* 
+- PhD in Computer Science, <a href="http://ucl.ac.uk/" style="color:black">Univeristy College London</a>, *2020* - *Present* 
+- MSc in Data Science, <a href="http://ucl.ac.uk/" style="color:black">University College London</a>, *2019* - *2020* 
+- BSc in Mathematics with Finance, <a href="https://www.liverpool.ac.uk/" style="color:black">University of Liverpool</a> & <a href="https://www.xjtlu.edu.cn/en/" style="color:black">XJTLU</a>, *2015* - *2019* 
+  
 <!-- - BSc in Mathematics with Finance, Xi'an Jiaotong-Liverpool University, *2015* - *2017*  -->
 <!-- :mortar_board:   -->
 
@@ -39,16 +65,51 @@ Education
 
 <!-- **Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<!-- 
+<div id="education">
+<div class="namecard">
+<table style="border-collapse: collapse; border: none;">
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+    <tr style="border:none; line-height:1.0">
+    <td style="border: none;" width="2%"></td>
+    <td class="logo-img-td" style="border: none;" width="8%"> <a href="https://www.ucl.ac.uk/"><img src="images/ucl.png" width="100%" align="right" /></a> </td>
+    <td class="logo-txt-td" style="border: none;" width="80%"> 
+        <p style="line-height:1.5">
+          <span style="font-size:8pt"></span><br />
+          <span style="font-weight:bold; color:black; font-size:12pt">Univeristy College London</span><br />
+          <span style="font-weight:400; color:black; font-size:12pt">PhD in Computer Science</span><br />
+          <span style="font-weight:400; color:black; font-size:12pt">2020 - Present</span>
+        </p>
+    </td>
+    </tr>
+
+    <tr style="border: none;">
+    <td style="border: none;" width="2%"></td>
+    <td class="logo-img-td" style="border: none;" width="8%"> <a href="https://www.ucl.ac.uk/"><img src="images/ucl.png" width="100%" /></a> </td>
+    <td class="logo-txt-td" style="border: none;" width="80%">
+        <p style="line-height:1.5">
+          <span style="font-size:8pt"></span><br />
+          <span style="font-weight:bold; color:black; font-size:12pt">Univeristy College London</span><br />
+          <span style="font-weight:400; color:black; font-size:12pt">MSc in Data Science</span><br />
+          <span style="font-weight:400; color:black; font-size:12pt">2019 - 2020</span>
+        </p>
+    </td>
+    </tr>
+
+    <tr style="border: none;">
+    <td style="border: none;" width="2%"></td>
+    <td class="logo-img-td" style="border: none;" width="8%"> <a href="https://www.liverpool.ac.uk/"><img src="images/uol.png" width="100%" /></a> </td>
+    <td class="logo-txt-td" style="border: none;" width="80%"> 
+        University of Liverpool & XJTLU <br />
+        BSc in Mathematics with Finance <br />
+        2015 - 2019
+    </td>
+    </tr>
+
+</table>
+</div>
+</div> -->
+
+
