@@ -46,7 +46,8 @@ Research Interests
 Experience
 ======
 - Applied Scientist Internship, <a href="https://www.amazon.science/" style="color:black">Amazon</a>, *Oct 2022* - *Jan 2023*
-<!-- - Alexa Prize TaskBot Challenge, <a href="https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge" style="color:black">Amazon</a>, *May 2021 - May 2022* -->
+- <a href="https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge" style="color:black">Amazon Alexa Prize TaskBot Challenge</a>， *Apr 2021* - *Apr 2022*
+<!-- - Alexa Prize TaskBot Challenge, <a href="https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge" style="color:black">Amazon Alexa Prize TaskBot Challenge</a>, *May 2021 - May 2022* -->
 
 Education
 ======
