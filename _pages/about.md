@@ -29,7 +29,7 @@ a:active {
 </head>
 
 <!-- ------ -->
-Welcome to my personal page! I stand with Ukraine :ukraine: !
+Welcome to my personal page! I stand with Ukraine :ukraine: and all the courageous people around the world who commit themselves to human rights, democracy, rule of law and peace.
 
 My name is Zhengxiang Shi. Now I am a PhD student supervised by <a href="https://aldolipani.com" style="color: black;">Dr Aldo Lipani</a> and <a href="https://sites.google.com/site/emineyilmaz/" style="color: black;">Prof Emine Yilmaz</a> at University College London, affiliated with <a href="http://wi.cs.ucl.ac.uk" style="color: black;">Web Intelligence Group</a> and <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab" style="color: black;">SpaceTimeLab</a>. Prior to that, I obtained Master degree with *Distinction* from University College London and Bachelor degree with *First Class Honor* from University of Liverpool and Xi'an Jiaotong-Liverpool University. I am also a Chartered Financial Analyst (CFA) Level II candidate with rich internship experience in financial industries.
 
