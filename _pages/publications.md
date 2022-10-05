@@ -27,7 +27,7 @@ a:active {
 </head>
 
 ------
-* **Attention-based Ingredient Phrase Parser** [:paperclip:](https://discovery.ucl.ac.uk/id/eprint/10150873/) [:computer:](https://github.com/ZhengxiangShi/IngredientParsing) <br />
+* **Attention-based Ingredient Phrase Parser** [:paperclip:](https://doi.org/10.14428/esann/2022.es2022-10) [:computer:](https://github.com/ZhengxiangShi/IngredientParsing) <br />
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.com/citations?user=nXZ7KHMAAAAJ&hl=en&oi=ao" style="color: black;">Pin Ni</a>, <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab/people" style="color: black;">Meihui Wang</a>, <a href="https://scholar.google.com/citations?user=3ymamHAAAAAJ&hl=en&oi=sra" style="color: black;">To Eun Kim</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   European Symposium on Artificial Neural Networks (ESANN), 2022 <br />
 
