@@ -5,6 +5,7 @@ permalink: /services/
 author_profile: true
 ---
 
+- EACL 2023
 - AAAI 2023
 - EMNLP 2022
 - COLING 2022
