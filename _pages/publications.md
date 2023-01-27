@@ -40,7 +40,7 @@ a:active {
   North American Chapter of the Association for Computational Linguistics (Findings of NAACL), 2022 <br />
 
 * **StepGame: A New Benchmark for Robust Multi-Hop Spatial Reasoning in Texts** [:paperclip:](https://ojs.aaai.org/index.php/AAAI/article/view/21383) [:computer:](https://github.com/ZhengxiangShi/StepGame) <br />
-  <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=ZKuRZaEAAAAJ&view_op=list_works&sortby=pubdate" style="color: black;">Qiang Zhang</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
+  <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.com/citations?user=ZKuRZaEAAAAJ&hl=en" style="color: black;">Qiang Zhang</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Association for the Advancement of Artificial Intelligence (AAAI), 2022 <br />
   *(Acceptance Rate: 15%, Selected for Oral Presentation: 4.5%)* <br />
 
