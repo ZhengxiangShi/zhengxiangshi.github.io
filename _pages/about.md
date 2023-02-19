@@ -41,6 +41,7 @@ My name is Zhengxiang Shi. Now I am a PhD student supervised by <a href="https:/
 Research Interests
 ======
 - Information Retrieval
+- Representation Learning
 - Language Models
 
 Experience
