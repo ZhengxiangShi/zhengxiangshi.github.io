@@ -29,9 +29,10 @@ a:active {
 </head>
 
 <!-- ------ -->
-Welcome to my personal page! I stand with Ukraine :ukraine: and all the courageous people around the world who commit themselves to human rights, democracy, rule of law and peace.
+Welcome to my personal page! I stand with Ukraine :ukraine: and all the courageous people around the world who commit themselves to upholding human rights, promoting democracy, adhering to the rule of law, and advocating for peace.
 
-My name is Zhengxiang Shi. Now I am a PhD student supervised by <a href="https://aldolipani.com" style="color: black;">Dr Aldo Lipani</a> and <a href="https://sites.google.com/site/emineyilmaz/" style="color: black;">Prof Emine Yilmaz</a> at University College London, affiliated with <a href="http://wi.cs.ucl.ac.uk" style="color: black;">Web Intelligence Group</a> and <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab" style="color: black;">SpaceTimeLab</a>. Prior to that, I obtained Master degree with *Distinction* from University College London and Bachelor degree with *First Class Honor* from University of Liverpool and Xi'an Jiaotong-Liverpool University. I am also a Chartered Financial Analyst (CFA) Level II candidate with rich internship experience in financial industries.
+My name is Zhengxiang Shi. Now I am a PhD student supervised by <a href="https://aldolipani.com" style="color: black;">Dr Aldo Lipani</a> and <a href="https://sites.google.com/site/emineyilmaz/" style="color: black;">Prof Emine Yilmaz</a> at University College London, affiliated with <a href="http://wi.cs.ucl.ac.uk" style="color: black;">Web Intelligence Group</a> and <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab" style="color: black;">SpaceTimeLab</a>. Prior to pursuing my PhD, I obtained a Master's degree with *Distinction* from University College London and a Bachelor's degree with *First Class Honor* from University of Liverpool and Xi'an Jiaotong-Liverpool University. 
+<!-- I am also a Chartered Financial Analyst (CFA) Level II candidate with rich internship experience in financial industries. -->
 
 <!-- My research interests lie in the area of machine learning, particularly in spatial reasoning over texts and conversational systems. Besides that, I am also working on the [2021 Amazon Alexa Prize TaskBot Challenge](https://www.amazon.science/academic-engagements/ten-university-teams-selected-to-participate-in-alexa-prize-taskbot-challenge) with [UCL Condita Team](http://wi.cs.ucl.ac.uk/index.php/2021/08/14/the-ucl-condita-team-selected-for-the-2021-alexa-prize-taskbot-challenge/). -->
 
@@ -39,9 +40,8 @@ My name is Zhengxiang Shi. Now I am a PhD student supervised by <a href="https:/
 
 Research Interests
 ======
-- Conversational System
-- Commonsense Reasoning
 - Information Retrieval
+- Language Models
 
 Experience
 ======
@@ -51,7 +51,7 @@ Experience
 
 Education
 ======
-- PhD in Computer Science, <a href="http://ucl.ac.uk/" style="color:black">Univeristy College London</a>, *2020* - *Present* 
+- PhD in Computer Science, <a href="http://ucl.ac.uk/" style="color:black">University College London</a>, *2020* - *Present* 
 - MSc in Data Science, <a href="http://ucl.ac.uk/" style="color:black">University College London</a>, *2019* - *2020* 
 - BSc in Mathematics with Finance, <a href="https://www.liverpool.ac.uk/" style="color:black">University of Liverpool</a> & <a href="https://www.xjtlu.edu.cn/en/" style="color:black">XJTLU</a>, *2015* - *2019* 
   
