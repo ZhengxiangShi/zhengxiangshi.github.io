@@ -27,7 +27,7 @@ a:active {
 </head>
 
 ------
-* **Rethinking Semi-supervised Learning with Language Models** [:paperclip:](https://arxiv.org/abs/2305.01711) [:computer:](https://github.com/ZhengxiangShi/PowerfulPromptFT) <br />
+* **Don't Stop Pretraining? Make Prompt-based Fine-tuning Powerful Learner** [:paperclip:](https://arxiv.org/abs/2305.01711) [:computer:](https://github.com/ZhengxiangShi/PowerfulPromptFT) <br />
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Preprint, 2023 <br />
 
