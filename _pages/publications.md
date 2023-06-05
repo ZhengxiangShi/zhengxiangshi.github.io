@@ -31,7 +31,7 @@ a:active {
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Preprint, 2023 <br />
 
-* **Self Contrastive Learning for Session-based Recommendation** [:paperclip:](https://github.com/ZhengxiangShi/zhengxiangshi.github.io/blob/main/files/scl_public.pdf) [:computer:](https://github.com/ZhengxiangShi/SelfContrastiveLearningRecSys) <br />
+* **Self Contrastive Learning for Session-based Recommendation** [:paperclip:](https://arxiv.org/abs/2306.01266) [:computer:](https://github.com/ZhengxiangShi/SelfContrastiveLearningRecSys) <br />
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.co.uk/citations?user=nFmvLQgAAAAJ&hl=en" style="color: black;">Xi Wang</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Preprint, 2023 <br />
 
