@@ -18,4 +18,4 @@ Information Retrieval Venues
 - ECML/PKDD 2022
 
 Machine Learning Venues
-- AAAI 2023
+- AAAI 2023-2024
