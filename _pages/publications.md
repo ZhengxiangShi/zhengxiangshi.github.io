@@ -35,7 +35,7 @@ a:active {
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.co.uk/citations?user=nFmvLQgAAAAJ&hl=en" style="color: black;">Xi Wang</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Preprint, 2023 <br />
 
-* **Rethinking Semi-supervised Learning with Language Models** [:paperclip:](https://arxiv.org/abs/2305.13002) [:computer:](https://github.com/amzn/pretraining-or-self-training) <br />
+* **Rethinking Semi-supervised Learning with Language Models** [:paperclip:](https://aclanthology.org/2023.findings-acl.347/) [:computer:](https://github.com/amzn/pretraining-or-self-training) <br />
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.com/citations?user=4urrvVQAAAAJ&hl=en" style="color: black;">Francesco Tonolini</a>, <a href="https://scholar.google.co.uk/citations?user=uxRWFhoAAAAJ&hl=en" style="color: black;">Nikolaos Aletras</a>, <a href="https://scholar.google.com/citations?user=ocmAN4YAAAAJ&hl=en" style="color: black;">Emine Yilmaz</a>, <a href="https://scholar.google.co.uk/citations?user=0U23qOUAAAAJ&hl=en" style="color: black;">Gabriella Kazai</a>, <a href="https://scholar.google.com/citations?user=NgTM33MAAAAJ&hl=en" style="color: black;">Yunlong Jiao</a> <br />
   Findings of the Association for Computational Linguistics: ACL, 2023 <br />
   
