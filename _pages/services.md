@@ -10,12 +10,13 @@ ACL Venues
 - ACL 2023
 - EMNLP 2022, 2023
 - EACL 2023
-- COLING 2022
+- COLING 2023, 2024
 
 Information Retrieval Venues
 - SIGIR 2022, 2023
 - KDD 2023
 - ECML/PKDD 2022
+- SDM 2024
 
 Machine Learning Venues
-- AAAI 2023-2024
+- AAAI 2023, 2024
