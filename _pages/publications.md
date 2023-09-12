@@ -27,6 +27,10 @@ a:active {
 </head>
 
 ------
+* **DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning** [:paperclip:](https://arxiv.org/abs/2309.05173) [:computer:](https://github.com/ZhengxiangShi/DePT) <br />
+  <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
+  Preprint, 2023 <br />
+
 * **Don't Stop Pretraining? Make Prompt-based Fine-tuning Powerful Learner** [:paperclip:](https://arxiv.org/abs/2305.01711) [:computer:](https://github.com/ZhengxiangShi/PowerfulPromptFT) <br />
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
   Preprint, 2023 <br />
