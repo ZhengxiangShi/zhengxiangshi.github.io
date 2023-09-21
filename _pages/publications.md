@@ -33,7 +33,7 @@ a:active {
 
 * **Don't Stop Pretraining? Make Prompt-based Fine-tuning Powerful Learner** [:paperclip:](https://arxiv.org/abs/2305.01711) [:computer:](https://github.com/ZhengxiangShi/PowerfulPromptFT) <br />
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
-  Preprint, 2023 <br />
+  37th Conference on Neural Information Processing Systems: NeurIPS Main Track, 2023 <br />
 
 * **Self Contrastive Learning for Session-based Recommendation** [:paperclip:](https://arxiv.org/abs/2306.01266) [:computer:](https://github.com/ZhengxiangShi/SelfContrastiveLearningRecSys) <br />
   <span style="color:black;text-decoration:underline">Zhengxiang Shi</span>, <a href="https://scholar.google.co.uk/citations?user=nFmvLQgAAAAJ&hl=en" style="color: black;">Xi Wang</a>, <a href="https://scholar.google.at/citations?user=fyHjfEgAAAAJ" style="color: black;">Aldo Lipani</a> <br />
