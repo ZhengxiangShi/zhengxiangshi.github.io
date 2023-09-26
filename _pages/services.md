@@ -15,6 +15,7 @@ ACL Venues
 Information Retrieval Venues
 - SIGIR 2022, 2023
 - KDD 2023
+- ECIR 2024
 - ECML/PKDD 2022
 - SDM 2024
 
