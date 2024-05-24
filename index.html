@@ -118,7 +118,54 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-    
+          <!-- <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0"> -->
+            <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='preview'>
+                    <br>
+                    <!-- <img src='asset/dept.png' width="160"></div> -->
+                    <img src='asset/insight_single.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function zipnerf_start() {
+                    document.getElementById('zipnerf_image').style.opacity = "1";
+                  }
+  
+                  function zipnerf_stop() {
+                    document.getElementById('zipnerf_image').style.opacity = "0";
+                  }
+                  zipnerf_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2405.14394">
+                  <span class="papertitle">Instruction Tuning With Loss Over Instructions</span>
+                </a>
+                <br>
+                <strong>Zhengxiang Shi</strong>,
+                <a href="https://scholar.google.com/citations?user=KBNxz5sAAAAJ&hl=en">Adam X. Yang</a>,
+                <a href="https://scholar.google.com/citations?user=2ZHjpDcAAAAJ&hl=en">Bin Wu</a>,
+                <a href="https://scholar.google.com/citations?user=DF9khKUAAAAJ">Laurence Aitchison</a>,
+                <a href="https://scholar.google.com/citations?user=ocmAN4YAAAAJ&hl=en">Emine Yilmaz</a>,
+                <a href="https://scholar.google.com/citations?user=fyHjfEgAAAAJ&hl=en">Aldo Lipani</a>,
+                <br>
+                Preprint, 2024 &nbsp
+                <br>
+                <a href="https://arxiv.org/abs/2405.14394">Paper</a>
+                /
+                <a href="https://github.com/ZhengxiangShi/InstructionModelling">Github</a>
+                <!-- / -->
+                <!-- <a href="https://x.com/arankomatsuzaki/status/1706313103372071110?s=20">Trending in Community</a> -->
+                <p></p>
+                <p>
+                We show that in many scenarios, applying loss to instructions rather than outputs only,
+                which we refer to as Instruction Modelling, could largely improve the performance of instruction tuning on both various NLP and open-ended generation benchmarks. 
+                Remarkably, in the most advantageous case, our approach boosts model performance on AlpacaEval 1.0 by over 100%.
+                </p>
+              </td>
+            </tr>
+            
           <!-- <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0"> -->
           <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -145,7 +192,7 @@
               </a>
               <br>
               <strong>Zhengxiang Shi</strong>,
-              <a href="https://aldolipani.com">Aldo Lipani</a>,
+              <a href="https://scholar.google.com/citations?user=fyHjfEgAAAAJ&hl=en">Aldo Lipani</a>,
               <br>
               International Conference on Learning Representations (<strong>ICLR</strong>), 2024 &nbsp
               <br>
