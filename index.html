@@ -7,18 +7,64 @@
     <meta name="author" content="Zhengxiang Shi">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+    
+    <!-- Add the visitor tracking script -->
+    <script>
+      function trackVisit() {
+        let count = localStorage.getItem('visitorCount') || 0;
+        count = parseInt(count) + 1;
+        localStorage.setItem('visitorCount', count);
+        
+        // Update the count display if admin
+        const visitorCountElement = document.getElementById('visitorCount');
+        if (visitorCountElement) {
+          visitorCountElement.textContent = count;
+        }
+
+        // Send the count to the server every 10 visits
+        if (count % 10 === 0) {
+          fetch('/api/track-visit', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ count: count }),
+          });
+        }
+      }
+
+      function checkAdminStatus() {
+        const adminPassword = '123456'; // Replace with a secure password
+        const enteredPassword = localStorage.getItem('adminPassword');
+        
+        if (enteredPassword === adminPassword) {
+          document.getElementById('adminContent').style.display = 'block';
+        } else {
+          const password = prompt('Enter admin password:');
+          if (password === adminPassword) {
+            localStorage.setItem('adminPassword', password);
+            document.getElementById('adminContent').style.display = 'block';
+          }
+        }
+      }
+
+      // Call trackVisit when the page loads
+      window.addEventListener('load', () => {
+        trackVisit();
+        checkAdminStatus();
+      });
+    </script>
   </head>
-
+  
   <body>
-
     <main style="width:100%;max-width:800px;margin:0 auto;">
       <header style="padding:2.5%;">
         <table style="width:100%;border-spacing:0;">
           <tr>
             <td style="width:60%;vertical-align:middle">
-              <h1 class="name" style="text-align:center;">Zhengxiang Shi</h1>
+              <h1 class="name" style="text-align:center;">Zhengyan Shi</h1>
               <p>
-                I am a PhD student supervised by <a href="https://aldolipani.com">Prof Aldo Lipani</a> and <a href="https://sites.google.com/site/emineyilmaz/">Prof Emine Yilmaz</a> at University College London, affiliated with <a href="http://wi.cs.ucl.ac.uk">Web Intelligence Group</a> and <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab">SpaceTimeLab</a>. 
+                Hi, weclome to my personal page. I am a PhD student supervised by <a href="https://aldolipani.com">Prof Aldo Lipani</a> and <a href="https://sites.google.com/site/emineyilmaz/">Prof Emine Yilmaz</a> at University College London, affiliated with <a href="http://wi.cs.ucl.ac.uk">Web Intelligence Group</a> and <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/groups-centres-and-sections/spacetimelab">SpaceTimeLab</a>. 
                 I am currently working as an Intern of Technical Staff at <a href="https://cohere.com/command">Cohere Command Team</a> in London. Previously, I have completed two internships as an Applied Scientist at Amazon in both London and Seattle offices.
               </p>
               <p>
@@ -81,7 +127,7 @@
             <div class="paper-content">
               <h3><a href="https://arxiv.org/abs/2405.14394">Instruction Tuning With Loss Over Instructions</a></h3>
               <p class="authors">
-                <strong>Zhengxiang Shi</strong>,
+                <strong>Zhengyan Shi</strong>,
                 <a href="https://scholar.google.com/citations?user=KBNxz5sAAAAJ&hl=en">Adam X. Yang</a>,
                 <a href="https://scholar.google.com/citations?user=2ZHjpDcAAAAJ&hl=en">Bin Wu</a>,
                 <a href="https://scholar.google.com/citations?user=DF9khKUAAAAJ">Laurence Aitchison</a>,
@@ -189,10 +235,13 @@
               <p class="publication">Proceedings of the AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2022</p>
               <p class="links">
                 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21383">Paper</a> /
-                <a href="https://github.com/zhengxiangshi/stepgame">Github</a>
+                <a href="https://github.com/zhengxiangshi/stepgame">Github</a> /
+                <a href="https://huggingface.co/datasets/michaelszx/StepGame">HuggingFace Dataset</a>
               </p>
               <p class="abstract">
-                Introduces StepGame, a new benchmark for testing multi-hop spatial reasoning in texts. This dataset challenges models to perform robust spatial reasoning across multiple steps, providing a valuable tool for advancing natural language understanding in complex spatial scenarios.
+                Introduces StepGame, a new benchmark for testing multi-hop spatial reasoning in texts. 
+                This dataset challenges models to perform robust spatial reasoning across multiple steps, 
+                providing a valuable tool for advancing natural language understanding in complex spatial scenarios.
               </p>
             </div>
           </article>
@@ -283,6 +332,10 @@
           margin-bottom: 1em; /* Adds space below the heading */
         }
       </style>
+
+      <div id="adminContent" style="display: none; text-align: center; margin-top: 2em; font-size: 0.9em;">
+        <p>Visitors: <span id="visitorCount">0</span></p>
+      </div>
     </main>
     
     <script>
