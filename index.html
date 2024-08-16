@@ -10,49 +10,48 @@
     
     <!-- Add the visitor tracking script -->
     <script>
+      let visitorCount = parseInt(localStorage.getItem('visitorCount') || '0');
+      
       function trackVisit() {
-        let count = localStorage.getItem('visitorCount') || 0;
-        count = parseInt(count) + 1;
-        localStorage.setItem('visitorCount', count);
-        
-        // Update the count display if admin
-        const visitorCountElement = document.getElementById('visitorCount');
-        if (visitorCountElement) {
-          visitorCountElement.textContent = count;
-        }
+        visitorCount++;
+        localStorage.setItem('visitorCount', visitorCount);
 
         // Send the count to the server every 10 visits
-        if (count % 10 === 0) {
+        if (visitorCount % 10 === 0) {
           fetch('/api/track-visit', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ count: count }),
+            body: JSON.stringify({ count: visitorCount }),
           });
         }
       }
 
-      function checkAdminStatus() {
-        const adminPassword = '123456'; // Replace with a secure password
-        const enteredPassword = localStorage.getItem('adminPassword');
-        
-        if (enteredPassword === adminPassword) {
-          document.getElementById('adminContent').style.display = 'block';
-        } else {
-          const password = prompt('Enter admin password:');
-          if (password === adminPassword) {
-            localStorage.setItem('adminPassword', password);
-            document.getElementById('adminContent').style.display = 'block';
-          }
+      // Secret key combination: Ctrl + Alt + V
+      const secretKeys = { ctrlKey: false, altKey: false, key: 'v' };
+      let keysPressed = { ...secretKeys };
+
+      function handleKeyDown(event) {
+        if (event.ctrlKey) keysPressed.ctrlKey = true;
+        if (event.altKey) keysPressed.altKey = true;
+        if (event.key.toLowerCase() === secretKeys.key) keysPressed.key = true;
+
+        if (Object.entries(keysPressed).every(([key, value]) => value === secretKeys[key])) {
+          alert(`Current visitor count: ${visitorCount}`);
+          keysPressed = { ...secretKeys }; // Reset after showing
         }
       }
 
-      // Call trackVisit when the page loads
-      window.addEventListener('load', () => {
-        trackVisit();
-        checkAdminStatus();
-      });
+      function handleKeyUp(event) {
+        if (!event.ctrlKey) keysPressed.ctrlKey = false;
+        if (!event.altKey) keysPressed.altKey = false;
+        if (event.key.toLowerCase() === secretKeys.key) keysPressed.key = false;
+      }
+
+      window.addEventListener('load', trackVisit);
+      document.addEventListener('keydown', handleKeyDown);
+      document.addEventListener('keyup', handleKeyUp);
     </script>
   </head>
   
@@ -333,9 +332,6 @@
         }
       </style>
 
-      <div id="adminContent" style="display: none; text-align: center; margin-top: 2em; font-size: 0.9em;">
-        <p>Visitors: <span id="visitorCount">0</span></p>
-      </div>
     </main>
     
     <script>
