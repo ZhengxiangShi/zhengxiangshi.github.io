@@ -8,50 +8,118 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
     
-    <!-- Add the visitor tracking script -->
+    <!-- Visitor tracking script -->
     <script>
-      let visitorCount = parseInt(localStorage.getItem('visitorCount') || '0');
-      
-      function trackVisit() {
-        visitorCount++;
-        localStorage.setItem('visitorCount', visitorCount);
+      const TRACKING_CONFIG = {
+        apiEndpoint: '/api/track-visit',
+        secretKeys: { ctrlKey: true, altKey: true, key: 'v' }
+      };
 
-        // Send the count to the server every 10 visits
-        if (visitorCount % 10 === 0) {
-          fetch('/api/track-visit', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ count: visitorCount }),
+      class VisitorTracker {
+        constructor() {
+          this.visitorId = null;
+          this.setupEventListeners();
+        }
+
+        async init() {
+          try {
+            // Basic bot detection
+            if (this.isLikelyBot()) {
+              console.debug('Bot detected, skipping tracking');
+              return;
+            }
+
+            // Get or create visitor ID
+            this.visitorId = localStorage.getItem('visitorId');
+            if (!this.visitorId) {
+              this.visitorId = crypto.randomUUID();
+              localStorage.setItem('visitorId', this.visitorId);
+            }
+
+            await this.trackVisit();
+          } catch (error) {
+            console.error('Error initializing visitor tracking:', error);
+          }
+        }
+
+        isLikelyBot() {
+          return /bot|crawler|spider|crawling/i.test(navigator.userAgent) ||
+                 !navigator.webdriver === undefined ||
+                 document.hidden;
+        }
+
+        async trackVisit() {
+          try {
+            const response = await fetch(TRACKING_CONFIG.apiEndpoint, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                visitorId: this.visitorId,
+                timestamp: Date.now(),
+                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                screenResolution: `${window.screen.width}x${window.screen.height}`,
+                language: navigator.language
+              }),
+            });
+
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+          } catch (error) {
+            console.error('Error tracking visit:', error);
+          }
+        }
+
+        async showStats() {
+          try {
+            const response = await fetch(`${TRACKING_CONFIG.apiEndpoint}/stats`);
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            
+            const stats = await response.json();
+            alert(
+              `Visitor Statistics:\n` +
+              `Total Visits: ${stats.totalVisits}\n` +
+              `Unique Visitors: ${stats.uniqueVisitors}`
+            );
+          } catch (error) {
+            console.error('Error fetching stats:', error);
+            alert('Unable to fetch visitor statistics');
+          }
+        }
+
+        setupEventListeners() {
+          let keysPressed = { ...TRACKING_CONFIG.secretKeys };
+          
+          document.addEventListener('keydown', (event) => {
+            if (event.ctrlKey) keysPressed.ctrlKey = true;
+            if (event.altKey) keysPressed.altKey = true;
+            if (event.key.toLowerCase() === TRACKING_CONFIG.secretKeys.key) {
+              keysPressed.key = true;
+            }
+
+            if (Object.entries(keysPressed).every(([key, value]) => value === TRACKING_CONFIG.secretKeys[key])) {
+              this.showStats();
+              keysPressed = { ...TRACKING_CONFIG.secretKeys }; // Reset
+            }
+          });
+
+          document.addEventListener('keyup', (event) => {
+            if (!event.ctrlKey) keysPressed.ctrlKey = false;
+            if (!event.altKey) keysPressed.altKey = false;
+            if (event.key.toLowerCase() === TRACKING_CONFIG.secretKeys.key) {
+              keysPressed.key = false;
+            }
           });
         }
       }
 
-      // Secret key combination: Ctrl + Alt + V
-      const secretKeys = { ctrlKey: false, altKey: false, key: 'v' };
-      let keysPressed = { ...secretKeys };
-
-      function handleKeyDown(event) {
-        if (event.ctrlKey) keysPressed.ctrlKey = true;
-        if (event.altKey) keysPressed.altKey = true;
-        if (event.key.toLowerCase() === secretKeys.key) keysPressed.key = true;
-
-        if (Object.entries(keysPressed).every(([key, value]) => value === secretKeys[key])) {
-          alert(`Current visitor count: ${visitorCount}`);
-          keysPressed = { ...secretKeys }; // Reset after showing
-        }
-      }
-
-      function handleKeyUp(event) {
-        if (!event.ctrlKey) keysPressed.ctrlKey = false;
-        if (!event.altKey) keysPressed.altKey = false;
-        if (event.key.toLowerCase() === secretKeys.key) keysPressed.key = false;
-      }
-
-      window.addEventListener('load', trackVisit);
-      document.addEventListener('keydown', handleKeyDown);
-      document.addEventListener('keyup', handleKeyUp);
+      // Initialize tracking when the page loads
+      window.addEventListener('load', () => {
+        const tracker = new VisitorTracker();
+        tracker.init();
+      });
     </script>
   </head>
   
