@@ -6,121 +6,13 @@
     <title>Zhengxiang Shi</title>
     <meta name="author" content="Zhengxiang Shi">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+    <!-- Replace SVG favicon with profile photo -->
+    <link rel="icon" type="image/jpeg" href="asset/zhengyans.jpeg">
+    <link rel="shortcut icon" type="image/jpeg" href="asset/zhengyans.jpeg">
+    <!-- Add Apple Touch Icon for iOS devices -->
+    <link rel="apple-touch-icon" href="asset/zhengyans.jpeg">
     
-    <!-- Visitor tracking script -->
-    <script>
-      const TRACKING_CONFIG = {
-        apiEndpoint: '/api/track-visit',
-        secretKeys: { ctrlKey: true, altKey: true, key: 'v' }
-      };
-
-      class VisitorTracker {
-        constructor() {
-          this.visitorId = null;
-          this.setupEventListeners();
-        }
-
-        async init() {
-          try {
-            // Basic bot detection
-            if (this.isLikelyBot()) {
-              console.debug('Bot detected, skipping tracking');
-              return;
-            }
-
-            // Get or create visitor ID
-            this.visitorId = localStorage.getItem('visitorId');
-            if (!this.visitorId) {
-              this.visitorId = crypto.randomUUID();
-              localStorage.setItem('visitorId', this.visitorId);
-            }
-
-            await this.trackVisit();
-          } catch (error) {
-            console.error('Error initializing visitor tracking:', error);
-          }
-        }
-
-        isLikelyBot() {
-          return /bot|crawler|spider|crawling/i.test(navigator.userAgent) ||
-                 !navigator.webdriver === undefined ||
-                 document.hidden;
-        }
-
-        async trackVisit() {
-          try {
-            const response = await fetch(TRACKING_CONFIG.apiEndpoint, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                visitorId: this.visitorId,
-                timestamp: Date.now(),
-                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-                screenResolution: `${window.screen.width}x${window.screen.height}`,
-                language: navigator.language
-              }),
-            });
-
-            if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status}`);
-            }
-          } catch (error) {
-            console.error('Error tracking visit:', error);
-          }
-        }
-
-        async showStats() {
-          try {
-            const response = await fetch(`${TRACKING_CONFIG.apiEndpoint}/stats`);
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            
-            const stats = await response.json();
-            alert(
-              `Visitor Statistics:\n` +
-              `Total Visits: ${stats.totalVisits}\n` +
-              `Unique Visitors: ${stats.uniqueVisitors}`
-            );
-          } catch (error) {
-            console.error('Error fetching stats:', error);
-            alert('Unable to fetch visitor statistics');
-          }
-        }
-
-        setupEventListeners() {
-          let keysPressed = { ...TRACKING_CONFIG.secretKeys };
-          
-          document.addEventListener('keydown', (event) => {
-            if (event.ctrlKey) keysPressed.ctrlKey = true;
-            if (event.altKey) keysPressed.altKey = true;
-            if (event.key.toLowerCase() === TRACKING_CONFIG.secretKeys.key) {
-              keysPressed.key = true;
-            }
-
-            if (Object.entries(keysPressed).every(([key, value]) => value === TRACKING_CONFIG.secretKeys[key])) {
-              this.showStats();
-              keysPressed = { ...TRACKING_CONFIG.secretKeys }; // Reset
-            }
-          });
-
-          document.addEventListener('keyup', (event) => {
-            if (!event.ctrlKey) keysPressed.ctrlKey = false;
-            if (!event.altKey) keysPressed.altKey = false;
-            if (event.key.toLowerCase() === TRACKING_CONFIG.secretKeys.key) {
-              keysPressed.key = false;
-            }
-          });
-        }
-      }
-
-      // Initialize tracking when the page loads
-      window.addEventListener('load', () => {
-        const tracker = new VisitorTracker();
-        tracker.init();
-      });
-    </script>
+    <!-- Visitor tracking script removed -->
   </head>
   
   <body>
